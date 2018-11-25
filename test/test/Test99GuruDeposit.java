@@ -67,6 +67,6 @@ public class Test99GuruDeposit {
         Assert.assertTrue(objHomePage.getHomePageDashboardUserName().toLowerCase().contains("manger id : mgr123"));
         
         objDeposit = new Guru99NewDepositPage(driver);
-        objDeposit.MakeDeposittoToGuru99("67881", "10000", "Esto es un deposito");
+        objDeposit.MakeDeposittoToGuru99("67881", "10000", "Esto es un test de deposito");
     }
 }
