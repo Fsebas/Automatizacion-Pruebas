@@ -77,7 +77,7 @@ public class Test99GuruCustomer {
 
         objCustomer = new Guru99NewCustomerPage(driver);
 //        olickOPenNewCustomer();
-        objCustomer.NewCustomerToGuru99("Daniel", "25101997", "Hola mi gente", "Medellin", "Antioquia", "123456", "123", "Holas@jg.com", "123456");
+        objCustomer.NewCustomerToGuru99("Daniel", "25101997", "Daniel Cifuentes", "Medellin", "Antioquia", "123456", "123", "Holas@jg.com", "123456");
         //String hola = objCustomer.getDepositPageMoney();
         
         objAccount = new Guru99NewAccountPage(driver);
